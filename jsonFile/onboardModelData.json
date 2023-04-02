@@ -1,0 +1,24 @@
+[
+  {
+    "image":"images/bla.jpg",
+    "description":"a random logo"
+  },
+  {
+    "image":"images/black.png",
+    "description":"a black round logo"
+  },
+  {
+    "image":"images/ig.jpg",
+    "description":"instagram logo"
+  },
+  {
+    "image":"images/twi.png",
+    "description":"twitter logo"
+  },
+  {
+    "image":"images/wats.jpg",
+    "description":"whatsapp logo"
+  }
+  
+]
+
