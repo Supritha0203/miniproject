@@ -26,27 +26,27 @@ class _DestinationCarouselState extends State<DestinationCarousel> {
     "whatsapp logo",
   ];
   final List<Widget> images = [
-    Container(
+    const SizedBox(
       width: 160.0,
       height: 200,
       child: Image(image: AssetImage('images/bla.jpg')),
     ),
-    Container(
+    const SizedBox(
       width: 160.0,
       height: 200,
       child: Image(image: AssetImage('images/black.png')),
     ),
-    Container(
+    const SizedBox(
       width: 160.0,
       height: 200,
       child: Image(image: AssetImage('images/ig.jpg')),
     ),
-    Container(
+    const SizedBox(
       width: 160.0,
       height: 200,
       child: Image(image: AssetImage('images/twi.png')),
     ),
-    Container(
+    const SizedBox(
       width: 160.0,
       height: 200,
       child: Image(image: AssetImage('images/wats.jpg')),
@@ -55,7 +55,7 @@ class _DestinationCarouselState extends State<DestinationCarousel> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
+        body: SizedBox(
       // margin: const EdgeInsets.symmetric(vertical: 20.0),
       height: 200.0,
       child: FutureBuilder(
@@ -68,13 +68,13 @@ class _DestinationCarouselState extends State<DestinationCarousel> {
             return CoverFlow(
               images: images,
               titles: titles,
-              textStyle: TextStyle(color: Colors.black, fontSize: 0.5),
+              textStyle: const TextStyle(color: Colors.black, fontSize: 0.5),
               displayOnlyCenterTitle: false,
               onCenterItemSelected: (index) {
                 print('Selected Item\'s index: $index');
               },
               shadowOpacity: 0.3,
-              shadowOffset: Offset(3, 8),
+              shadowOffset: const Offset(3, 8),
             );
             ;
           } else {
