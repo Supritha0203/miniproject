@@ -50,14 +50,14 @@ class MyApp extends StatelessWidget {
   }
 }
 
-ListView(
+// ListView(
                   
-                  scrollDirection: Axis.horizontal,
-                  children: [
-                    Container(
-                        width: 160.0,
-                        child: Image(
-                            image: AssetImage(items[index].image.toString()))),
-                    Text(items[index].description.toString())
-                  ],
-                )
+//                   scrollDirection: Axis.horizontal,
+//                   children: [
+//                     Container(
+//                         width: 160.0,
+//                         child: Image(
+//                             image: AssetImage(items[index].image.toString()))),
+//                     Text(items[index].description.toString())
+//                   ],
+//                 )

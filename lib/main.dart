@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mptest/craouselImage.dart';
 import './carousel.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: DestinationCarousel(),
+      home: craouselImage(),
     );
   }
 }
